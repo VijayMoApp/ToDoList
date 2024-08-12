@@ -30,11 +30,4 @@ fun ItemList(viewModel: TodoViewModel) {
             }
         }
     }
-
-    // Floating Action Button to add a new item
-    FloatingActionButton(onClick = {
-        // Trigger add item logic
-    }) {
-        Icon(Icons.Default.Add, contentDescription = null)
-    }
 }
